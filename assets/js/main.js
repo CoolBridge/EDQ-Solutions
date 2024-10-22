@@ -22,3 +22,31 @@ function toggleDescription(card) {
       description.style.display = "none"; // Hide description
   }
 }
+function zoomImage() {
+  var zoomedImage = document.getElementById('zoomedImage');
+  zoomedImage.style.display = 'flex';
+}
+
+function closeImage() {
+  document.getElementById('zoomedImage').style.display = 'none';
+}
+function zoomImage() {
+  document.getElementById('zoomedImage').style.display = 'flex';
+}
+
+function closeImage() {
+  document.getElementById('zoomedImage').style.display = 'none';
+}
+function toggleContent(contentId) {
+  const content = document.getElementById(contentId);
+  const isVisible = content.style.display === 'block';
+  
+  // Hide all blog content
+  document.querySelectorAll('.blog-content').forEach((el) => {
+    el.style.display = 'none';
+  });
+
+  // Toggle the clicked content
+  content.style.display = isVisible ? 'none' : 'block';
+}
+
