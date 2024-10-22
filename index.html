@@ -2,249 +2,450 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcomDynamiq Solutions</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcomDynamiq Solutions</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Add some custom styling */
+    .marquee {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .marquee p {
+      margin: 0;
+      font-size: 1.2em;
+    }
+
+    .about-section {
+      padding: 60px 0;
+    }
+
+    .testimonial {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      margin: 15px;
+    }
+   /* WhatsApp button styling */
+   .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            font-weight: bold;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #20b358;
+        }</style>
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">EcomDynamiq Solutions</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">EcomDynamiq Solutions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <!-- WhatsApp Button -->
+                <a href="https://wa.me/+2347030709203" class="btn whatsapp-btn ml-2" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section d-flex justify-content-center align-items-center">
-      <img src="assets/img/3mttbackend.jpeg" alt="Hero Image" class="hero-image">
-      <div class="hero-overlay"></div>
-      <div class="container text-center">
-        <h1 class="hero-title">Welcome to EcomDynamiq Solutions</h1>
-        <p class="hero-subtitle">Innovating for a Sustainable Future</p>
-        <a href="#services" class="btn btn-primary hero-btn">Explore Our Services</a>
-      </div>
-    </section>
-    
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section d-flex justify-content-center align-items-center">
+    <img src="assets/img/smart.jpeg" alt="Hero Image" class="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="container text-center">
+      <h1 class="hero-title">Welcome to EcomDynamiq Solutions</h1>
+      <p class="hero-subtitle">Innovating for a Sustainable Future</p>
+      <a href="#services" class="btn btn-primary hero-btn">Explore Our Services</a>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section py-5">
-        <div class="container text-center">
-            <h2 class="section-title">About Us</h2>
-            <p>At EcomDynamiq Solutions, we are committed to harnessing the power of technology for sustainable development. Our team specializes in innovative tech solutions that drive efficiency and promote eco-friendly practices.</p>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <<!-- Services Section -->
-<section id="services" class="services-section py-5">
-  <div class="container text-center">
-      <h2 class="section-title">Our Services</h2>
-      <p class="section-subtitle">Check out what we offer</p>
-      <div class="row">
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-mobile-alt service-icon"></i>
-                  <h3>Mobile App Development</h3>
-                  <p>Custom mobile applications for iOS and Android that are user-friendly and innovative.</p>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-globe service-icon"></i>
-                  <h3>Web Development</h3>
-                  <p>Responsive and engaging websites designed to enhance user experience and drive results.</p>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-brain service-icon"></i>
-                  <h3>AI Solutions</h3>
-                  <p>Implementing AI technologies to optimize operations and enhance decision-making processes.</p>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-chalkboard-teacher service-icon"></i>
-                  <h3>Training Programs</h3>
-                  <p>Comprehensive training programs in mobile app development and digital technologies.</p>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-handshake service-icon"></i>
-                  <h3>Consultancy</h3>
-                  <p>Expert consultancy services to guide businesses in leveraging technology for growth.</p>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="service-card p-4">
-                  <i class="fas fa-leaf service-icon"></i>
-                  <h3>Sustainability Solutions</h3>
-                  <p>Innovative solutions that promote environmental sustainability and efficiency.</p>
-              </div>
-          </div>
-      </div>
+  <!-- RSS Marquee Section -->
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">
+      <p id="rss-feed">Loading TechCrunch News...</p>
+    </marquee>
   </div>
-</section>
+  <!-- About Section -->
+  <section id="about" class="about-section py-5">
+    <div class="container text-center">
+      <h2 class="section-title">About Us</h2>
+      <p>At EcomDynamiq Solutions, we are committed to harnessing the power of technology for sustainable development.
+        Our team specializes in innovative tech solutions that drive efficiency and promote eco-friendly practices.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <<!-- Services Section -->
+  <section id="services" class="services-section py-5" style="position: relative; overflow: hidden; cursor: pointer;" onclick="zoomImage()">
+    <div class="service-background" style="background-image: url('assets/img/rubberband.jpeg'); background-size: cover; background-position: center; height: 580px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; transition: transform 0.3s ease;">
+      <div class="container text-center">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Check out what we offer</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-mobile-alt service-icon"></i>
+              <h3>Mobile App Development</h3>
+              <p>Custom mobile applications for iOS and Android that are user-friendly and innovative.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-globe service-icon"></i>
+              <h3>Web Development</h3>
+              <p>Responsive and engaging websites designed to enhance user experience and drive results.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-brain service-icon"></i>
+              <h3>AI Solutions</h3>
+              <p>Implementing AI technologies to optimize operations and enhance decision-making processes.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-chalkboard-teacher service-icon"></i>
+              <h3>Training Programs</h3>
+              <p>Comprehensive training programs in mobile app development and digital technologies.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-handshake service-icon"></i>
+              <h3>Consultancy</h3>
+              <p>Expert consultancy services to guide businesses in leveraging technology for growth.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4">
+              <i class="fas fa-leaf service-icon"></i>
+              <h3>Sustainability Solutions</h3>
+              <p>Innovative solutions that promote environmental sustainability and efficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
-        <h2>Our Projects</h2>
-        <div class="projects-container">
-            <div class="project-card" data-description="QIELTS is a cross-platform mobile app designed to simulate IELTS test sections.">
-                <img src="assets/img/qielts.jpeg" alt="QIELTS Mobile App" class="project-image">
-                <h3 class="project-title">QIELTS Mobile App</h3>
-                <p class="project-description">AI-powered adaptive testing, personalized study paths.</p>
-            </div>
-            <div class="project-card" data-description="A professional website built for Spartan Fitness Academy, showcasing services and booking options.">
-                <img src="assets/img/spartan.jpeg" alt="Spartan Fitness Academy" class="project-image">
-                <h3 class="project-title">Spartan Fitness Academy</h3>
-                <p class="project-description">Engaging platform with booking and service highlights.</p>
-            </div>
-            <div class="project-card" data-description="A comprehensive platform for clinical physiology education with various programs.">
-                <img src="assets/img/cpa.jpeg" alt="Clinical Physiology Academy" class="project-image">
-                <h3 class="project-title">Clinical Physiology Academy</h3>
-                <p class="project-description">Offers Holter Analysis, Echocardiography, and more.</p>
-            </div>
-            <div class="project-card" data-description="A web app connecting to GitHub’s API to fetch and manage repositories.">
-                <img src="assets/img/3mttbackend.jpeg" alt="3MTT Backend Web App" class="project-image">
-                <h3 class="project-title">3MTT Backend Engineering Web App</h3>
-                <p class="project-description">Manage repositories with pagination and search.</p>
-            </div>
-            <div class="project-card" data-description="A frontend engineering web app for displaying repositories with pagination and search.">
-                <img src="assets/img/3mttfrontend.jpeg" alt="3MTT Frontend Web App" class="project-image">
-                <h3 class="project-title">3MTT Frontend Engineering Web App</h3>
-                <p class="project-description">Intuitive UI for repository management.</p>
-            </div>
-            <div class="project-card" data-description="This intensive training program covers native and cross-platform mobile app development.">
-                <img src="assets/img/mood.jpeg" alt="Mobile App Development Training Program" class="project-image">
-                <h3 class="project-title">Mobile App Development Training Program</h3>
-                <p class="project-description">Hands-on training in mobile app development.</p>
-            </div>
-            <div class="project-card" data-description="Rubberband is a cross-platform app focused on sustainable tech solutions.">
-                <img src="assets/img/rubberband.jpeg" alt="Rubberband Project" class="project-image">
-                <h3 class="project-title">Rubberband Project</h3>
-                <p class="project-description">Tools to assess and improve environmental impact.</p>
-            </div>
-            <div class="project-card" data-description="A podcast sharing lessons from tier-one special forces for business leaders.">
-                <img src="assets/img/leadership.jpeg" alt="Podcast for Business Leaders" class="project-image">
-                <h3 class="project-title">Podcast for Business Leaders and Change Makers</h3>
-                <p class="project-description">Insights on leadership and strategy.</p>
-            </div>
+      <h2>Our Projects</h2>
+      <div class="projects-container">
+        <div class="project-card"
+          data-description="QIELTS is a cross-platform mobile app designed to simulate IELTS test sections.">
+          <img src="assets/img/qielts.jpeg" alt="QIELTS Mobile App" class="project-image">
+          <h3 class="project-title">QIELTS Mobile App</h3>
+          <p class="project-description">AI-powered adaptive testing, personalized study paths.</p>
         </div>
-    
-        <div class="project-description" id="projectDescription">
-            <p id="descriptionText"></p>
-            <a href="#" id="projectLink" class="project-link">Go to Project</a>
+        <div class="project-card"
+          data-description="A professional website built for Spartan Fitness Academy, showcasing services and booking options.">
+          <img src="assets/img/spartan.jpeg" alt="Spartan Fitness Academy" class="project-image">
+          <h3 class="project-title">Spartan Fitness Academy</h3>
+          <p class="project-description">Engaging platform with booking and service highlights.</p>
         </div>
+        <div class="project-card"
+          data-description="A comprehensive platform for clinical physiology education with various programs.">
+          <img src="assets/img/cpa.jpeg" alt="Clinical Physiology Academy" class="project-image">
+          <h3 class="project-title">Clinical Physiology Academy</h3>
+          <p class="project-description">Offers Holter Analysis, Echocardiography, and more.</p>
+        </div>
+        <div class="project-card"
+          data-description="A web app connecting to GitHub’s API to fetch and manage repositories.">
+          <img src="assets/img/3mttbackend.jpeg" alt="3MTT Backend Web App" class="project-image">
+          <h3 class="project-title">3MTT Backend Engineering Web App</h3>
+          <p class="project-description">Manage repositories with pagination and search.</p>
+        </div>
+        <div class="project-card"
+          data-description="A frontend engineering web app for displaying repositories with pagination and search.">
+          <img src="assets/img/3mttfrontend.jpeg" alt="3MTT Frontend Web App" class="project-image">
+          <h3 class="project-title">3MTT Frontend Engineering Web App</h3>
+          <p class="project-description">Intuitive UI for repository management.</p>
+        </div>
+        <div class="project-card"
+          data-description="This intensive training program covers native and cross-platform mobile app development.">
+          <img src="assets/img/mood.jpeg" alt="Mobile App Development Training Program" class="project-image">
+          <h3 class="project-title">Mobile App Development Training Program</h3>
+          <p class="project-description">Hands-on training in mobile app development.</p>
+        </div>
+        <div class="project-card"
+          data-description="Rubberband is a cross-platform app focused on sustainable tech solutions.">
+          <img src="assets/img/rubberband.jpeg" alt="Rubberband Project" class="project-image">
+          <h3 class="project-title">Rubberband Project</h3>
+          <p class="project-description">Tools to assess and improve environmental impact.</p>
+        </div>
+        <div class="project-card"
+          data-description="A podcast sharing lessons from tier-one special forces for business leaders.">
+          <img src="assets/img/leadership.jpeg" alt="Podcast for Business Leaders" class="project-image">
+          <h3 class="project-title">Podcast for Business Leaders and Change Makers</h3>
+          <p class="project-description">Insights on leadership and strategy.</p>
+        </div>
+      </div>
+
+      <div class="project-description" id="projectDescription">
+        <p id="descriptionText"></p>
+        <a href="#" id="projectLink" class="project-link">Go to Project</a>
+      </div>
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials-section bg-light py-5">
-        <div class="container">
-            <h2 class="section-title text-center">What Our Clients Say</h2>
-            <div class="row">
-                <div class="col-lg-6 text-center">
-                    <div class="testimonial-card">
-                        <p>"EcomDynamiq Solutions transformed our operations with their innovative AI solutions."</p>
-                        <h5>- Client Name</h5>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <div class="testimonial-card">
-                        <p>"Their expertise in web development helped us reach a wider audience."</p>
-                        <h5>- Client Name</h5>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title text-center">What Our Clients Say</h2>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <div class="testimonial-card">
+              <p>"EcomDynamiq Solutions transformed our operations with their innovative AI solutions."</p>
+              <h5>- Client Name</h5>
             </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="testimonial-card">
+              <p>"Their expertise in web development helped us reach a wider audience."</p>
+              <h5>- Client Name</h5>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Blog Section -->
     <section id="blog" class="blog-section py-5">
-        <div class="container">
-            <h2 class="section-title text-center">Latest Insights</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="blog-card">
-                        <h3>Blog Title 1</h3>
-                        <p>Brief description of the blog post. Explore the latest trends in technology.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-card">
-                        <h3>Blog Title 2</h3>
-                        <p>Brief description of the blog post. Insights on sustainability in tech.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-card">
-                        <h3>Blog Title 3</h3>
-                        <p>Brief description of the blog post. The future of mobile app development.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title text-center">Latest Insights in AI Research & Innovation</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content1')">
+              <div class="blog-icon"><i class="fas fa-lightbulb"></i></div>
+              <h3>The Rise of Generative AI</h3>
+              <p>Explore how generative AI is transforming industries.</p>
+              <div id="content1" class="blog-content">
+                <p>Generative AI is revolutionizing creative processes across various sectors, enabling innovative content generation, from art to music. Its applications are expanding rapidly, influencing how we think about creativity and technology.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content2')">
+              <div class="blog-icon"><i class="fas fa-balance-scale"></i></div>
+              <h3>AI Ethics: Balancing Innovation and Responsibility</h3>
+              <p>Insights on ethical considerations in AI development.</p>
+              <div id="content2" class="blog-content">
+                <p>As AI technologies advance, ethical considerations become crucial. Striking a balance between innovation and responsibility is essential to ensure that technology benefits society and mitigates risks.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content3')">
+              <div class="blog-icon"><i class="fas fa-hospital-alt"></i></div>
+              <h3>AI in Healthcare: Revolutionizing Patient Care</h3>
+              <p>Discover how AI is enhancing patient outcomes.</p>
+              <div id="content3" class="blog-content">
+                <p>AI is transforming healthcare by providing predictive analytics and personalized medicine, leading to improved patient outcomes and more efficient care delivery.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content4')">
+              <div class="blog-icon"><i class="fas fa-tree"></i></div>
+              <h3>The Impact of AI on Climate Change</h3>
+              <p>Learn about AI-driven solutions tackling climate change.</p>
+              <div id="content4" class="blog-content">
+                <p>AI initiatives are aiding in climate change mitigation by optimizing resource use and predicting environmental changes, promoting sustainability across various sectors.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content5')">
+              <div class="blog-icon"><i class="fas fa-comments"></i></div>
+              <h3>Advancements in Natural Language Processing</h3>
+              <p>Explore breakthroughs in NLP improving interactions.</p>
+              <div id="content5" class="blog-content">
+                <p>Recent advancements in natural language processing are enhancing human-computer interactions, making technology more accessible and intuitive for users.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-card" onclick="toggleContent('content6')">
+              <div class="blog-icon"><i class="fas fa-users"></i></div>
+              <h3>AI for Social Good: Empowering Communities</h3>
+              <p>Insights into AI initiatives fostering community development.</p>
+              <div id="content6" class="blog-content">
+                <p>AI-driven projects are empowering communities by addressing social issues, enhancing access to education, healthcare, and economic opportunities.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-
+    
+    
     <!-- Contact Section -->
-    <section id="contact" class="contact-section py-5">
-        <div class="container text-center">
-            <h2 class="section-title">Get in Touch</h2>
-            <p>If you have any questions or inquiries, feel free to reach out!</p>
-            <form action="submit_form.php" method="post">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
-    </section>
+    <!-- Get in Touch Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+      <h2 class="text-center">Get in Touch</h2>
+      <form id="contactForm" onsubmit="return handleSubmit(event)">
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div id="responseMessage" class="mt-3" style="display: none;"></div>
+  </div>
+</section>
+
+<script>
+  function handleSubmit(event) {
+      event.preventDefault(); // Prevent the default form submission
+      
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      // Display submission message
+      const responseMessage = document.getElementById('responseMessage');
+      responseMessage.style.display = 'block';
+      responseMessage.innerHTML = `<div class="alert alert-success">Thank you, ${name}! Your message has been sent.</div>`;
+
+      // Here, you would typically send the data to your email server using AJAX or a server-side script
+      // Example: Using fetch to send data to your backend (not implemented in this code)
+      /*
+      fetch('your-server-endpoint', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ name, email, message })
+      });
+      */
+
+      // Reset form fields
+      document.getElementById('contactForm').reset();
+  }
+</script>
+
 
     <!-- Footer -->
-    <footer class="footer-section py-3 bg-light">
-        <div class="container text-center">
-            <p>&copy; 2024 EcomDynamiq Solutions. All rights reserved.</p>
-            <div class="social-media-links">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-linkedin-in"></a>
-                <a href="#" class="fab fa-instagram"></a>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer -->
+<!-- Footer -->
+<footer class="footer py-5" style="background: linear-gradient(to right, #2c3e50, #34495e);">
+  <div class="container text-center">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <h4 style="color: #e1e1e1;">About Us</h4>
+              <p class="text-light">EcomDynamiq Solutions is dedicated to providing innovative tech and AI-driven solutions to foster sustainable growth.</p>
+          </div>
+          <div class="col-md-4 mb-4">
+              <h4 style="color: #e1e1e1;">Quick Links</h4>
+              <ul class="list-unstyled">
+                  <li><a href="#about" class="text-light">About Us</a></li>
+                  <li><a href="#projects" class="text-light">Projects</a></li>
+                  <li><a href="#testimonials" class="text-light">Testimonials</a></li>
+                  <li><a href="#contact" class="text-light">Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+              <h4 style="color: #e1e1e1;">Contact Us</h4>
+              <p class="text-light">Phone: <a href="tel:+234 703 070 9203" class="text-light">+234 703 070 9203</a></p>
+              <p class="text-light">Email: <a href="mailto:info@ecomdynamiq.com" class="text-light">info@ecomdynamiq.com</a></p>
+          </div>
+      </div>
+      <div class="social-icons my-3">
+          <h4 style="color: #e1e1e1;">Follow Us</h4>
+          <a href="#" class="text-light mr-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-snapchat-ghost"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-reddit-alien"></i></a>
+          <a href="#" class="text-light mr-3"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-telegram-plane"></i></a>
+      </div>
+      <p class="mt-3 text-light">&copy; 2024 EcomDynamiq Solutions. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Include Font Awesome CDN (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZvPy1iY7CC9Vx4dfAa9IpPL3vdLJY0PkF9WwFwiY2wK94XJfEtcL5aZ2OZ4Y8R" crossorigin="anonymous">
+
+<!-- Include Font Awesome CDN (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZvPy1iY7CC9Vx4dfAa9IpPL3vdLJY0PkF9WwFwiY2wK94XJfEtcL5aZ2OZ4Y8R" crossorigin="anonymous">
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <script>
+      // Function to fetch and display RSS feed
+      async function loadRSS() {
+        const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://techcrunch.com/feed/');
+        const data = await response.json();
+        const items = data.items.slice(0, 5); // Get top 5 news articles
+        const rssFeed = document.getElementById('rss-feed');
+        let feedContent = '';
+
+        items.forEach(item => {
+          feedContent += `${item.title} | `;
+        });
+
+        rssFeed.innerHTML = feedContent;
+      }
+
+      // Load RSS feed when the page is loaded
+      window.onload = loadRSS;
+    </script>
 </body>
 
 </html>
